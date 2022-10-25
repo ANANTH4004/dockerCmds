@@ -16,3 +16,10 @@ docker cp hello.html compassionate_lehmann:/hello.html
 Tag : docker tag docker/getting-started:latest anand2143/firstimage
 
 Push :  docker push anand2143/firstimage
+
+===================================================================================
+docker cp hello.html [container name]:/hello.html -----------> copy file
+
+docker start [container name] --- >  to start the container
+
+
