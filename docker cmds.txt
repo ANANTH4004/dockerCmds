@@ -23,3 +23,4 @@ docker cp hello.html [container name]:/hello.html -----------> copy file
 docker start [container name] --- >  to start the container
 
 
+ docker create --name nginx_base -p 81:80 nginx:alpine
